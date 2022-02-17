@@ -6,7 +6,7 @@
 		<body>
 		<h1>Welcome to My Website! I am Stefan Delgado, Nice to meet you!</h1>
     <ul>
-		  <li><a href="index.php">HOME</a></li>
+		  <li><a href="/index.php">HOME</a></li>
       <li><a href="/LT2/index.html">LEARNING TASK 2</a></li>
     </ul>
 		</body>
