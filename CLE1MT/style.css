@@ -14,6 +14,10 @@
 				float: left;
 			}
 			
+			#Main {
+				background-color: white;
+			}
+			
 			h1.Aspiring{
 				text-align: center;
 				padding-top: 270px;
@@ -107,6 +111,8 @@
 				width: 400px;
 				height: 250px;
 				padding-left: 150px;
+				box-shadow: 5px 0px 2px rgba(0, 0, 0, 0.329);
+				
 			}
 			
 			#Gbackground {
