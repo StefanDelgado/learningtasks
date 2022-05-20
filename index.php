@@ -1,16 +1,28 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>My Home Page</title>
-	</head>
-	<body>
-		<h1>Welcome to My Website! I am Stefan Delgado, Nice to meet you!</h1>
-			<ul>
-		 		<li><a href="/index.php">HOME</a></li>
-      				<li><a href="/LT2/index.html">LEARNING TASK 2</a></li>
-	  			<li><a href="/LT3/index.html">LEARNING TASK 3</a></li>
-				<li><a href="/CLE1MT/index.html">Culminating Learning Evidence (Midterm)</a></li>
-				<li><a href="/LT4/index.html">LEARNING TASK 4</a></li>
-    			</ul>
-	</body>
-	</html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Start</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Css/stylesheet.css">
+        <script src="Js/script.js"></script>
+    </head>
+        <body>
+            <?php include 'nav_bar.php' ?>
+
+            <div id="middle">
+                <div id="right">
+                    <img src="Images/Crap.jpg" alt="Self Portrait" class="PP"> 
+                </div>
+                <div class="textbox">
+                <h1 class ="defaultText" id ="textedit">I'm <span class="color" >Stefan</span> Delgado<br/></h1>
+                <h2 class ="defaultText" id ="textedit">If you set your goals<span class="color"> ridiculously high </span> 
+                and it's a<span class="color"> failure </span>, you will fail above everyone else's success. 
+                <br/> -James Cameron</h2>
+                </div>
+            </div>
+        </body>
+</html>

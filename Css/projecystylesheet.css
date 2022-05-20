@@ -1,0 +1,37 @@
+    table, tr, td {
+        border: 1px solid white;
+        color: aliceblue;
+    }
+    table {
+        top: 150px;
+        margin-left: 320px;
+        border-collapse: collapse;
+        position: relative;
+        
+    }
+    tr {
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Work Sans', sans-serif;
+        height: 20px;
+    }
+    th {
+        font-size: 24px;
+    }
+    td a{
+        color: rgb(237, 53, 53);
+        padding: 10px;
+    }
+    tr a:hover{
+        background-color: rgb(177, 206, 255);
+    }
+
+    .bgBox {
+        margin-top: 100px;
+        margin-left: 300px;
+        width: 900px;
+        height: 490px;
+        background-color: rgb(23, 38, 54);
+        border-radius: 30px;
+        
+    }
